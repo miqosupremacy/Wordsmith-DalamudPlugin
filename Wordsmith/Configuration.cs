@@ -248,7 +248,7 @@ public sealed class Configuration : IPluginConfiguration
             _ = Wordsmith.NotificationManager.AddNotification( new()
             {
                 Content = "Configuration saved!",
-                Title = "Wordsmith",
+                Title = "WordsmithIPR",
                 Type = Dalamud.Interface.ImGuiNotification.NotificationType.Success
             } );
             //Wordsmith.PluginInterface.UiBuilder.AddNotification("Configuration saved!", "Wordsmith", Dalamud.Interface.Internal.Notifications.NotificationType.Success);
